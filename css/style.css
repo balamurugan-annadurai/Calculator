@@ -58,3 +58,17 @@ button{
     font-size: medium;
     font-weight: 600;
 }
+@media (max-width: 300px) {
+    .calculator {
+        padding: 20px 5px; 
+    }
+
+    .buttons {
+        gap: 5px; 
+        margin-top: 5px; 
+    }
+
+    button {
+        padding: 5px 2px; 
+    }
+}
